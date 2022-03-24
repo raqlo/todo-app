@@ -1,5 +1,5 @@
-import {Button} from "@mui/material";
+import Typography from "@mui/material/Typography";
 
 export function TodoCounter() {
-    return <Button variant="contained">Hello World</Button>;
+    return <Typography component="h3" variant='overline'>7 tasks out of 8</Typography>;
 }

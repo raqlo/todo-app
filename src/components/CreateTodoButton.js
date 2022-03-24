@@ -1,5 +1,10 @@
+import Fab from '@mui/material/Fab';
+import AddIcon from '@mui/icons-material/Add';
+
 export  function CreateTodoButton(props) {
     return (
-        <button>+</button>
+        <Fab color="primary" aria-label="add">
+            <AddIcon />
+        </Fab>
     ) ;
 }
